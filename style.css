@@ -29,7 +29,8 @@ body {
     list-style-type: none;
     font-size: 0.7em;
     margin: 0;
-    width: 100%;
+    width: 90%;
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -50,6 +51,16 @@ body {
 
 .push {
     margin-left: auto;
+}
+
+
+/* COVER */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
 }
 
 
