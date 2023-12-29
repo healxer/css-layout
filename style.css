@@ -64,6 +64,27 @@ body {
 }
 
 
+/* GRID */
+
+.grid-wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));  /* used in responsive web design to create a grid layout where the columns adjust themselves based on the available space */
+}
+
+/* element that is a direct child of an element with a specific class */
+.box > img {
+    width: 100%;
+}
+
+.box {
+    background-color: #444;
+    padding: 130px;
+    margin: 20px;
+}
+
+
+
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
  *  Green Background
