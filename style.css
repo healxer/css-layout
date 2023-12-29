@@ -61,6 +61,10 @@ body {
     height: 50vh;
 }
 
+.cover {
+    width: 29rem;
+}
+
 /* GRID */
 
 .grid-wrapper {
